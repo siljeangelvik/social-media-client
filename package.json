@@ -2,17 +2,30 @@
   "name": "css-frameworks-ca",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "node src/js/**/*.js",
     "prettier": "prettier -w src/js/**/*.js",
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server"
   },
-  "keywords": [],
-  "author": "Noroff",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siljeangelvik/social-media-client-angelvik.git"
+  },
+  "keywords": [
+    "social",
+    "media",
+    "client",
+    "javascript"
+  ],
+  "author": "Silje Angelvik",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siljeangelvik/social-media-client-angelvik/issues"
+  },
+  "homepage": "https://github.com/siljeangelvik/social-media-client-angelvik#readme",
   "devDependencies": {
     "eslint-config-prettier": "8.5.0",
     "live-server": "^1.1.0",
