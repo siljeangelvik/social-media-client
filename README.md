@@ -2,7 +2,7 @@
 
 **Forked:** [NoroffFEU/social-media-client](https://github.com/NoroffFEU/social-media-client)  
 **
-Repo:** [GitHub siljeangelvik/social-media-client-angelvik](https://github.com/siljeangelvik/social-media-client-angelvik/tree/workflow)
+Repo:** [GitHub siljeangelvik/social-media-client-angelvik](https://github.com/siljeangelvik/social-media-client-angelvik/tree/workflow)  
 **Course Assignment:** [Workflow](https://noroff-content.gitlab.io/feu/workflow/ca.html)
 
 ## Issues:
