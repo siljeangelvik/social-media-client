@@ -4,6 +4,8 @@
 **GitHub:** [Repo](https://github.com/siljeangelvik/social-media-client-angelvik/tree/workflow)  
 **Course Assignment:** [Workflow](https://noroff-content.gitlab.io/feu/workflow/ca.html)
 
+![Jest](https://github.com/siljeangelvik/social-media-client-angelvik/actions/workflows/jest.yml/badge.svg)
+
 ## Issues:
 
 * Login form modal closes on invalid input
