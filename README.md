@@ -14,6 +14,10 @@
 
 - cannot resolve directories/files
 - sass/bootstrap is not installed/used
+
+
+- after installing prettier and eslint: 3 high severity vulnerabilities  
+ran command: npm audit fix --force (4 low severity vulnerabilities)
 ---
 
 
