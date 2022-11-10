@@ -12,6 +12,8 @@
 * eslint is auto-activated in my editor, turn it off?
 
 
+- cannot resolve directories/files
+- sass/bootstrap is not installed/used
 ---
 
 
