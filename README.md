@@ -3,6 +3,10 @@
 **Repo:** [GitHub siljeangelvik/social-media-client-angelvik](https://github.com/siljeangelvik/social-media-client-angelvik/tree/workflow)
 **Course Assignment:** [Workflow](https://noroff-content.gitlab.io/feu/workflow/ca.html)
 
+## Issues:  
+* Login form modal closes on invalid input
+* missing . in href
+
 
 ## Notes:
 * eslint is auto-activated in my editor, turn it off?
