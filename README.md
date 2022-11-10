@@ -24,7 +24,6 @@ Repo:** [siljeangelvik/social-media-client-angelvik](https://github.com/siljeang
 - eslint is auto-activated in my editor, turn it off?
 - eslint is configured manually
 - Code Editor Setting: Tools / Languages & Framework / Actions on Save
--
 
 ---
 
