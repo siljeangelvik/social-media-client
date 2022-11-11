@@ -14,6 +14,6 @@ export default {
   },
 
   build: {
-    outDir: "./vite",
+    outDir: "./dist",
   },
 };

@@ -10,7 +10,8 @@
   "overrides": [
     {
       "files": [
-        "**/*.test.js"
+        "**/*.test.js",
+        "**/*.cy.js"
       ],
       "extends": [
         "plugin:cypress/recommended"
