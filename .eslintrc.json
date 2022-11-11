@@ -34,7 +34,7 @@
     "no-unused-vars": [
       "error",
       {
-        "vars": "all",
+        "vars": "local",
         "args": "after-used",
         "ignoreRestSiblings": false
       }
