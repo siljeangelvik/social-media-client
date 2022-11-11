@@ -4,8 +4,27 @@
 **GitHub:** [Repo](https://github.com/siljeangelvik/social-media-client-angelvik/tree/workflow)  
 **Course Assignment:** [Workflow](https://noroff-content.gitlab.io/feu/workflow/ca.html)
 
-![Jest](https://github.com/siljeangelvik/social-media-client-angelvik/actions/workflows/jest.yml/badge.svg)
-"description": "![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)",
+![Deploy to pages](https://github.com/siljeangelvik/social-media-client-angelvik/actions/workflows/pages.yml/badge.svg)
+
+---
+
+## Steps in Errorhandling
+
+### 1
+
+Error feedback on commands:
+npm run dev
+npm run build-vite
+
+![build-vite.png](./issues/img/build-vite.png)
+
+### 2
+
+removed "type": "module" from package.json,
+then the command: 'npm run build-vite' worked..
+![remove-module-from-packageJSON.png](./issues/img/remove-module-from-packageJSON.png)
+
+---
 
 ## Issues:
 
@@ -29,12 +48,6 @@
 - Code Editor Setting: Tools / Languages & Framework / Actions on Save
 
 - Cannot commit files from folders: jest and cypress
-
-- Error feedback on commands:
-  npm run dev
-  npm run build-vite
-
-![build-vite.png](./issues/img/build-vite.png)
 
 ---
 
