@@ -27,7 +27,8 @@ successful command: **'npm run build-vite'**
 
 feedback message:
 
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"> in "/index.html" can't be bundled without type="module" attribute
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+in "/index.html" can't be bundled without type="module" attribute
 
 ---
 
@@ -43,6 +44,14 @@ feedback message:
 
 - Login form modal closes on invalid input
 - missing . in href
+
+**- on login gets error: Cannot GET /**
+checked: have correct login  
+
+console in browser says:   
+Content Security Policy: The page’s settings blocked the loading of a resource at inline (“default-src”).  
+Content Security Policy: The page’s settings blocked the loading of a resource at http://localhost:4173/favicon.ico (“default-src”).  
+Content Security Policy: The page’s settings blocked the loading of a resource at inline (“default-src”).
 
 ---
 
