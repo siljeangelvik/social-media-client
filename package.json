@@ -6,17 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build-sass": "sass src/scss:dist/css",
+    "dev-sass": "sass --watch src/scss:dist/css & live-server",
     "build": "vite build",
-    "preview": "vite preview",
+    "start": "vite preview",
+    "cypress": "cypress open",
+    "jest": "jest",
     "deployBuild": "npm run build & npm run build-vite",
-    "test": "jest test-unit",
-    "start": "sass --watch src/scss:dist/css & live-server",
     "prettier": "prettier -w src/js/**/*.js",
     "lint": "eslint src/js/**/*.js",
     "lint-fix": "eslint src/js/**/*.js --cache --fix",
-    "prepare": "husky install",
-    "jest": "jest",
-    "cypress": "cypress open"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
