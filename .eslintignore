@@ -2,3 +2,4 @@
 *.cy.js
 index.html
 !.eslintrc.json
+README.md
