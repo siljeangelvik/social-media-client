@@ -6,6 +6,8 @@
 
 ![Deploy to pages](https://github.com/siljeangelvik/social-media-client-angelvik/actions/workflows/pages.yml/badge.svg)
 
+#### Branch "vite-bundler" is ok
+
 ---
 
 ## Steps in Errorhandling
