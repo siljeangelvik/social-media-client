@@ -9,16 +9,15 @@
 
 ## Issues:
 
-* Login form modal closes on invalid input
-* missing . in href
-* console in browser gives feedback: warning  
+- Login form modal closes on invalid input
+- missing . in href
+- console in browser gives feedback: warning  
   "Some cookies are misusing the recommended 'SameSite' attribute"
 
 ## Notes:
 
 - cannot resolve directories/files
 - sass/bootstrap is not installed/used
-
 
 - after installing prettier and eslint: 3 high severity vulnerabilities  
   ran command: npm audit fix --force (4 low severity vulnerabilities)
@@ -35,12 +34,13 @@
 
 ## Resources:
 
-* [Workflow Status Badges](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)
-* [Cypress Docs](https://docs.cypress.io/guides/overview/why-cypress)
-* [Prettier Pre-Commit Hook](https://prettier.io/docs/en/precommit.html)
-* [npm commands](https://docs.npmjs.com/cli/v7/commands)
-* [ESLint JavaScript](https://eslint.org/docs/latest/developer-guide/working-with-rules)
-* [Simple SASS Compiler Setup](https://sprucecss.com/blog/the-simplest-sass-compile-setup)
+- [Workflow Status Badges](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)
+- [Cypress Docs](https://docs.cypress.io/guides/overview/why-cypress)
+- [Prettier Pre-Commit Hook](https://prettier.io/docs/en/precommit.html)
+- [npm commands](https://docs.npmjs.com/cli/v7/commands)
+- [ESLint JavaScript](https://eslint.org/docs/latest/developer-guide/working-with-rules)
+- [Simple SASS Compiler Setup](https://sprucecss.com/blog/the-simplest-sass-compile-setup)
+- [Vite Docs Guide](https://vitejs.dev/guide/)
 
 ### Tools
 

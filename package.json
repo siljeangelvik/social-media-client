@@ -5,6 +5,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build-vite": "vite build",
+    "preview": "vite preview",
+    "deployBuild": "npm run build & npm run build-Vite",
     "test": "npm run test-unit",
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server",
@@ -13,11 +17,7 @@
     "lint-fix": "eslint src/js/**/*.js --cache --fix",
     "prepare": "husky install",
     "jest": "jest",
-    "cypress": "cypress open",
-    "dev": "vite",
-    "build-Vite": "vite build",
-    "preview": "vite preview",
-    "deployBuild": "npm run build & npm run build-Vite"
+    "cypress": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -45,7 +45,8 @@
     "lint-staged": "^13.0.3",
     "live-server": "^1.1.0",
     "prettier": "2.7.1",
-    "sass": "^1.54.8"
+    "sass": "^1.54.8",
+    "vite": "^3.2.3"
   },
   "dependencies": {
     "bootstrap-dark-5": "^1.1.3",
