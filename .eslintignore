@@ -1,0 +1,5 @@
+# src/__test__
+*.test.js
+*.cy.js
+#index.html
+# !.eslintrc.json

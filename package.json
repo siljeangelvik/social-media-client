@@ -1,14 +1,21 @@
 {
-  "name": "css-frameworks-ca",
+  "name": "social-media-client-angelvik",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node src/js/**/*.js",
-    "prettier": "prettier -w src/js/**/*.js",
-    "build": "sass src/scss:dist/css",
+    "test": "npm run test-unit",
     "start": "sass --watch src/scss:dist/css & live-server",
+    "build": "sass src/scss:dist/css",
+    "jest": "jest",
+    "cypress": "cypress open",
+    "sass": "sass --watch src/scss:dist/css",
+    "dev-sass": "sass --watch --update --style=expanded src/scss:dist/css",
+    "prod-sass": "sass --no-source-map --style=compressed src/scss:dist/css",
+    "prettier": "prettier -w src/js/**/*.js",
+    "lint": "eslint src/js/**/*.js",
+    "lint-fix": "eslint src/js/**/*.js --cache --fix",
     "prepare": "husky install"
   },
   "repository": {
@@ -28,9 +35,12 @@
   },
   "homepage": "https://github.com/siljeangelvik/social-media-client-angelvik#readme",
   "devDependencies": {
+    "cypress": "^11.0.1",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-jest": "^27.1.5",
     "husky": "^8.0.2",
+    "jest": "^29.2.0",
     "lint-staged": "^13.0.3",
     "live-server": "^1.1.0",
     "prettier": "2.7.1",
