@@ -11,6 +11,8 @@
 
 * Login form modal closes on invalid input
 * missing . in href
+* console in browser gives feedback: warning  
+  "Some cookies are misusing the recommended 'SameSite' attribute"
 
 ## Notes:
 
@@ -36,6 +38,7 @@
 * [Prettier Pre-Commit Hook](https://prettier.io/docs/en/precommit.html)
 * [npm commands](https://docs.npmjs.com/cli/v7/commands)
 * [ESLint JavaScript](https://eslint.org/docs/latest/developer-guide/working-with-rules)
+* [Simple SASS Compiler Setup](https://sprucecss.com/blog/the-simplest-sass-compile-setup)
 
 ### Tools
 
