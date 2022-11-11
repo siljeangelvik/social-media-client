@@ -5,6 +5,7 @@
 **Course Assignment:** [Workflow](https://noroff-content.gitlab.io/feu/workflow/ca.html)
 
 ![Jest](https://github.com/siljeangelvik/social-media-client-angelvik/actions/workflows/jest.yml/badge.svg)
+"description": "![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)",
 
 ## Issues:
 
