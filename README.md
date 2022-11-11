@@ -29,6 +29,8 @@
 - eslint is configured manually
 - Code Editor Setting: Tools / Languages & Framework / Actions on Save
 
+- Cannot commit files from folders: jest and cypress
+
 ---
 
 ## Resources:
