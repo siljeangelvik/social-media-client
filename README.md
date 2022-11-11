@@ -25,6 +25,10 @@ successful command: **'npm run build-vite'**
 
 ![remove-module-from-packageJSON.png](./issues/img/remove-module-from-packageJSON.png)
 
+feedback message:
+
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"> in "/index.html" can't be bundled without type="module" attribute
+
 ---
 
 ## Notes:
