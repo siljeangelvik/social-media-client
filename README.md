@@ -30,6 +30,12 @@
 
 - Cannot commit files from folders: jest and cypress
 
+- Error feedback on commands:
+  npm run dev
+  npm run build-vite
+
+![build-vite.png](./issues/img/build-vite.png)
+
 ---
 
 ## Resources:
