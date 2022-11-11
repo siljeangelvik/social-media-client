@@ -6,50 +6,39 @@
 
 ![Deploy to pages](https://github.com/siljeangelvik/social-media-client-angelvik/actions/workflows/pages.yml/badge.svg)
 
-#### Branch "vite-bundler" is ok
-
 ---
 
-## Steps in Errorhandling
+## Self Notes: Errors
 
-### 1
+### 1. Error
 
-Error feedback on commands:
-npm run dev
-npm run build-vite
+Feedback when running commands:  
+**npm run dev**  
+**npm run build-vite**
 
 ![build-vite.png](./issues/img/build-vite.png)
 
-### 2
+### 2. Success ?
 
-removed "type": "module" from package.json,
-then the command: 'npm run build-vite' worked..
+removed **"type": "module"** from package.json.  
+successful command: **'npm run build-vite'**
+
 ![remove-module-from-packageJSON.png](./issues/img/remove-module-from-packageJSON.png)
 
 ---
 
-## Issues:
-
-- Login form modal closes on invalid input
-- missing . in href
-- console in browser gives feedback: warning  
-  "Some cookies are misusing the recommended 'SameSite' attribute"
-
 ## Notes:
-
-- cannot resolve directories/files
-- sass/bootstrap is not installed/used
-
-- after installing prettier and eslint: 3 high severity vulnerabilities  
-  ran command: npm audit fix --force (4 low severity vulnerabilities)
-
-#### Other:
 
 - eslint is auto-activated in my editor, turn it off?
 - eslint is configured manually
 - Code Editor Setting: Tools / Languages & Framework / Actions on Save
 
-- Cannot commit files from folders: jest and cypress
+## Issues:
+
+(Test these)
+
+- Login form modal closes on invalid input
+- missing . in href
 
 ---
 
@@ -66,8 +55,8 @@ then the command: 'npm run build-vite' worked..
 
 ### Tools
 
-**Bundler:** Vite / Webpack
-**Formatter:** Prettier
-**Linting:** ESLint
-**Unit Tester:** Jest / Cypress
+**Bundler:** Vite
+**Formatter:** Prettier  
+**Linting:** ESLint  
+**Unit Tester:** Jest / Cypress  
 **E2E Tester:** Cypress
