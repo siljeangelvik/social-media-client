@@ -1,0 +1,5 @@
+# cypress
+src/__test__
+*.test.js
+index.html
+# !.eslintrc.json
