@@ -11,7 +11,7 @@
     "start": "vite preview",
     "cypress": "cypress open",
     "jest": "jest",
-    "deployBuild": "npm run build & npm run build-vite",
+    "deployBuild": "npm run build & npm run build",
     "prettier": "prettier -w src/js/**/*.js",
     "lint": "eslint src/js/**/*.js",
     "lint-fix": "eslint src/js/**/*.js --cache --fix",
