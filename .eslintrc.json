@@ -1,28 +1,23 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest/globals": true,
+    "node": true,
+    "cypress/globals": true
   },
   "extends": "eslint:recommended",
   "overrides": [
     {
       "files": [
-        "*.test.js",
-        "*.cy.js",
-        "jest/*.js",
-        "cypress/**/*.js"
-      ],
-      "env": {
-        "jest": true
-      },
-      "plugins": [
-        "jest"
+        "**/*.cy.js"
       ],
       "extends": [
-        "plugin:jest/recommended"
+        "plugin:cypress/recommended"
       ],
       "rules": {
-        "jest/prefer-expect-assertions": "off"
+        "cypress/no-unnecessary-waiting": "off",
+        "no-unused-vars": "off"
       }
     }
   ],
@@ -31,13 +26,10 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-unused-vars": [
-      "error",
-      {
-        "vars": "local",
-        "args": "after-used",
-        "ignoreRestSiblings": false
-      }
-    ]
-  }
+    "no-unused-vars": "warn"
+  },
+  "plugins": [
+    "jest",
+    "cypress"
+  ]
 }
