@@ -10,7 +10,6 @@
   "overrides": [
     {
       "files": [
-        "**/*.test.js",
         "**/*.cy.js"
       ],
       "extends": [
