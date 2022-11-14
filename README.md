@@ -111,6 +111,7 @@ deprecated npm packages:
 - [Vite Docs Guide](https://vitejs.dev/guide/)
 - [Git Docs WebHook](https://docs.github.com/en/get-started/customizing-your-github-workflow/exploring-integrations/about-webhooks)
 - [Asbjørn GitHub Repo](https://github.com/Thundeee/social-media-client/tree/workflow)
+- [Cypress Login Tests](https://www.dolthub.com/blog/2020-10-23-cypress-login-tests/)
 
 ### Tools
 
