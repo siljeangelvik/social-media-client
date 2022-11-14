@@ -29,6 +29,15 @@ successful command: **'npm run build-vite'**
 
 ![running-cypress.png](./issues/img/running-cypress.png)
 
+**Trying to fix issue**  
+Installing npm package:  
+[cypress-localstorage-commands](https://www.npmjs.com/package/cypress-localstorage-commands)
+
+Running Cypress again:  
+![after-install-cypress-localstorage-commands.png](./issues/img/after-install-cypress-localstorage-commands.png)
+
+Cypress test works and throws an error (Bad Request) at login.js
+
 ---
 
 ## Notes:
@@ -56,6 +65,7 @@ successful command: **'npm run build-vite'**
 - [Simple SASS Compiler Setup](https://sprucecss.com/blog/the-simplest-sass-compile-setup)
 - [Vite Docs Guide](https://vitejs.dev/guide/)
 - [Git Docs WebHook](https://docs.github.com/en/get-started/customizing-your-github-workflow/exploring-integrations/about-webhooks)
+- [Asbjørn GitHub Repo](https://github.com/Thundeee/social-media-client/tree/workflow)
 
 ### Tools
 
