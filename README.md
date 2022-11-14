@@ -11,25 +11,33 @@ http://localhost:8080/social-media-client/?view=profile&name=Silje
 
 ---
 
-## Self Notes: Errors
+## Challenges
 
-### 1. Error
+### Vite
 
 Feedback when running commands:  
-**npm run dev**  
-**npm run build-vite**
+`npm run dev`  
+`npm run build`
 
 ![build-vite.png](./issues/img/build-vite.png)
 
-### 2. Success ?
+#### Trying to fix issue:
 
-removed **"type": "module"** from package.json.  
-successful command: **'npm run build-vite'**  
-**SOLVED:** added type="module" to html script tag/link
+**SOLVED:** removed `"type": "module"` from package.json.  
+`npm run build` = successful
 
 ![remove-module-from-packageJSON.png](./issues/img/remove-module-from-packageJSON.png)
 
-### 3. Running Cypress
+Additional Feedback:  
+script src=./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js  
+in index cannot be bundled without type=module attribute
+
+script src=./src/js/index.js  
+in index cannot be bundled without type=module attribute
+
+**SOLVED:** adding type=module to script-link in html.
+
+### Cypress
 
 ![running-cypress.png](./issues/img/running-cypress.png)
 
@@ -38,7 +46,7 @@ successful command: **'npm run build-vite'**
 Installing npm package:  
 [cypress-localstorage-commands](https://www.npmjs.com/package/cypress-localstorage-commands)
 
-### Running Cypress again:
+#### Running Cypress again:
 
 #### Cypress works, but throwing errors:
 
@@ -48,7 +56,7 @@ Installing npm package:
 
 ![after-install-cypress-localstorage-commands.png](./issues/img/after-install-cypress-localstorage-commands.png)
 
-### Running Cypress again:
+#### Running Cypress again:
 
 #### Trying to fix issue:
 
@@ -61,9 +69,7 @@ Installing npm package:
 at login (webpack:///./src/js/api/auth/login.js:20:8)
 at async Context.eval (webpack:///./cypress/support/commands.js:4:2)
 
-#### 4. Running Cypress
-
-### 5. Scripts
+### Scripts
 
 `npm run deploy`  
 ./dist/css/index.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
