@@ -76,6 +76,13 @@ at async Context.eval (webpack:///./cypress/support/commands.js:4:2)
 
 ![struggle-with-localstorage.png](./issues/img/struggle-with-localstorage.png)
 
+### GitHub Actions
+
+deprecated npm packages:  
+[source-map-url](https://github.com/lydell/source-map-url#deprecated)
+
+![deprecated-packages](./issues/img/deprecated-packages.png)
+
 ---
 
 ## Notes:
@@ -86,7 +93,7 @@ at async Context.eval (webpack:///./cypress/support/commands.js:4:2)
 
 ## Issues:
 
-(Test these)
+### (Test these)
 
 - Login form modal closes on invalid input
 - missing . in href
