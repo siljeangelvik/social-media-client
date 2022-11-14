@@ -10,5 +10,3 @@ describe("loginTest", () => {
     });
   });
 });
-
-// http://localhost:8080/social-media-client/?view=profile&name=Silje

@@ -2,9 +2,12 @@
 
 **Forked:** [NoroffFEU Project](https://github.com/NoroffFEU/social-media-client)  
 **GitHub:** [Repo](https://github.com/siljeangelvik/social-media-client-angelvik/tree/workflow)  
-**Course Assignment:** [Workflow](https://noroff-content.gitlab.io/feu/workflow/ca.html)
+**Course Assignment:** [Workflow](https://noroff-content.gitlab.io/feu/workflow/ca.html)  
+**GitHub Pages:** [Live Domain](https://siljeangelvik.github.io/social-media-client-angelvik/)
 
 ![Deploy to pages](https://github.com/siljeangelvik/social-media-client-angelvik/actions/workflows/pages.yml/badge.svg)
+
+http://localhost:8080/social-media-client/?view=profile&name=Silje
 
 ---
 
