@@ -2,8 +2,10 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the default (workflow) branch
   push:
+    branches: [ "workflow" ]
+  pull_request:
     branches: [ "workflow" ]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -38,6 +40,8 @@ jobs:
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v2
+      - name: Cypress run
+        uses: cypress-io/github-action@v4
         env:
           EMAIL: ${{secrets.EMAIL}}
           PASSWORD: ${{secrets.PASSWORD}}
