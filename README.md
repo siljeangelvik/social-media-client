@@ -24,7 +24,8 @@ Feedback when running commands:
 ### 2. Success ?
 
 removed **"type": "module"** from package.json.  
-successful command: **'npm run build-vite'**
+successful command: **'npm run build-vite'**  
+**SOLVED:** added type="module" to html script tag/link
 
 ![remove-module-from-packageJSON.png](./issues/img/remove-module-from-packageJSON.png)
 
@@ -32,16 +33,37 @@ successful command: **'npm run build-vite'**
 
 ![running-cypress.png](./issues/img/running-cypress.png)
 
-**Trying to fix issue**  
+#### Trying to fix issue:
+
 Installing npm package:  
 [cypress-localstorage-commands](https://www.npmjs.com/package/cypress-localstorage-commands)
 
-Running Cypress again:  
+### Running Cypress again:
+
+#### Cypress works, but throwing errors:
+
+**400:** api/v1/social/auth/login  
+**404:** src/js/storage/index  
+**404:** dist/css/index.css
+
 ![after-install-cypress-localstorage-commands.png](./issues/img/after-install-cypress-localstorage-commands.png)
 
-Cypress test works and throws an error (Bad Request) at login.js
+### Running Cypress again:
 
-### 4. Scripts
+#### Trying to fix issue:
+
+**400:** api/v1/social/auth/login  
+**404:** src/js/storage/index  
+~~**404:** dist/css/index.css~~ **SOLVED**
+
+`npm run cypress `![cypress-400-notFound.png](./issues/img/cypress-400-notFound.png)
+
+at login (webpack:///./src/js/api/auth/login.js:20:8)
+at async Context.eval (webpack:///./cypress/support/commands.js:4:2)
+
+#### 4. Running Cypress
+
+### 5. Scripts
 
 `npm run deploy`  
 ./dist/css/index.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
