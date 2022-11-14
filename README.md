@@ -84,18 +84,9 @@ deprecated npm packages:
 
 ---
 
-## Notes:
-
-- eslint is auto-activated in my editor, turn it off?
-- eslint is configured manually
-- Code Editor Setting: Tools / Languages & Framework / Actions on Save
-
 ## Issues:
 
-### (Test these)
-
-- Login form modal closes on invalid input
-- missing . in href
+2 out of 3 cypress tests pass.
 
 ---
 
