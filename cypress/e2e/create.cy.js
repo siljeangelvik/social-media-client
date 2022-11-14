@@ -5,7 +5,7 @@ describe("postCreaterTest", () => {
     cy.visit("/");
     cy.login(email, password);
 
-    cy.postMaker("test title", "test body").then((postTest) => {
+    cy.makePost("test title", "test body").then((postTest) => {
       expect(postTest.id).to.not.be.undefined;
 
       cy.deletePost(postTest.id);

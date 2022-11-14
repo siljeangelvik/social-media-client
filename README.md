@@ -38,6 +38,13 @@ Running Cypress again:
 
 Cypress test works and throws an error (Bad Request) at login.js
 
+### 4. Scripts
+
+`npm run deploy`  
+./dist/css/index.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+
+![struggle-with-localstorage.png](./issues/img/struggle-with-localstorage.png)
+
 ---
 
 ## Notes:
