@@ -1,7 +1,7 @@
 const path = require("path");
 
 export default {
-  base: "/social-media-client/",
+  base: "/social-media-client-angelvik/",
   root: path.resolve(__dirname, "./"),
   resolve: {
     alias: {

@@ -1,11 +1,11 @@
 {
-  "name": "social-media-client",
+  "name": "social-media-client-angelvik",
   "version": "1.0.0",
-  "description": "",
-  "main": "./index.js",
+  "description": "social media client",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "sass src/scss:dist/css & vite build",
     "start": "vite preview",
     "build-sass": "sass src/scss:dist/css",
     "sass": "sass --watch src/scss:dist/css & live-server",
@@ -16,10 +16,6 @@
     "lint": "eslint src/js/**/*.js",
     "lint-fix": "eslint src/js/**/*.js --cache --fix",
     "prepare": "husky install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/siljeangelvik/social-media-client-angelvik.git"
   },
   "keywords": [
     "social",

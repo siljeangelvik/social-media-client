@@ -5,9 +5,8 @@
 **Course Assignment:** [Workflow](https://noroff-content.gitlab.io/feu/workflow/ca.html)  
 **GitHub Pages:** [Live Domain](https://siljeangelvik.github.io/social-media-client-angelvik/)
 
-![Deploy to pages](https://github.com/siljeangelvik/social-media-client-angelvik/actions/workflows/pages.yml/badge.svg)
-
-http://localhost:8080/social-media-client/?view=profile&name=Silje
+![Deploy to pages](https://github.com/siljeangelvik/social-media-client-angelvik/actions/workflows/pages.yml/badge.svg)  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8351bb72-cb2f-4acd-9641-31a9d3ca7da8/deploy-status)](https://app.netlify.com/sites/social-media-client-ca-angelvik/deploys)
 
 ---
 
