@@ -1,8 +1,8 @@
 const path = require("path");
 
-export default {
-  base: "/social-media-client-angelvik/", // for github pages
-  root: path.resolve(__dirname, "./"),
+module.exports = {
+  //base: ".", // for github pages
+  root: path.resolve(__dirname, "./"), // what is root? https://vitejs.dev/config/#root
   resolve: {
     alias: {
       "~bootstrap": path.resolve(__dirname, "node_modules/bootstrap"),
@@ -12,7 +12,6 @@ export default {
     port: 8080,
     host: true,
   },
-
   build: {
     outDir: "./dist",
   },

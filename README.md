@@ -187,3 +187,9 @@ deprecated npm packages:
 ##### Cypress
 
 2 out of 3 cypress tests pass.
+
+#### CSS Styling
+
+Styling does not get applied to the website after deployed for some reason.
+
+I am guessing its because
