@@ -201,5 +201,5 @@ I am guessing its because
 "start": "vite preview",
 
 **New:**  
-"build": "sass src/scss:dist/css",  
+"build": "sass src/scss:dist/css & vite build",  
 "start": "sass --watch src/scss:dist/css & live-server",
