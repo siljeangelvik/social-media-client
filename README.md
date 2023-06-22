@@ -193,3 +193,13 @@ deprecated npm packages:
 Styling does not get applied to the website after deployed for some reason.
 
 I am guessing its because
+
+#### In package.json
+
+**Old:**  
+"build": "sass src/scss:dist/css & vite build",  
+"start": "vite preview",
+
+**New:**  
+"build": "sass src/scss:dist/css",  
+"start": "sass --watch src/scss:dist/css & live-server",
