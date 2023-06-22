@@ -1,7 +1,7 @@
 const path = require("path");
 
 export default {
-  base: "/social-media-client-angelvik/",
+  base: "/social-media-client-angelvik/", // for github pages
   root: path.resolve(__dirname, "./"),
   resolve: {
     alias: {
@@ -14,6 +14,6 @@ export default {
   },
 
   build: {
-    outDir: "./vite",
+    outDir: "./dist",
   },
 };
