@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./dist/css/index.css" />
+    <link rel="stylesheet" href="./src/scss/index.scss" />
     <script
       src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
       type="module"
@@ -330,6 +330,7 @@
             style="width: 2rem; height: 2rem; border-radius: 50%"
             class="img-fluid me-2"
             alt=""
+            src=""
           />
           <div class="text-truncate name"></div>
         </a>
@@ -387,7 +388,8 @@
               <label for="postMedia">Post Media</label>
             </div>
             <div class="form-floating mb-3">
-              <textarea
+              <label for="postBody"></label
+              ><textarea
                 class="form-control"
                 name="body"
                 id="postBody"
@@ -448,7 +450,8 @@
 
       <template id="commentForm">
         <form class="comment-form">
-          <textarea
+          <label for="commentBody"></label
+          ><textarea
             class="form-control"
             name="body"
             id="commentBody"
@@ -468,7 +471,6 @@
               id="nav-tab-default"
               data-bs-toggle="tab"
               data-bs-target="#nav-default"
-              type="button"
               role="tab"
               aria-controls="nav-default"
               aria-selected="true"
@@ -481,7 +483,6 @@
               id="nav-tab-edit"
               data-bs-toggle="tab"
               data-bs-target="#nav-edit"
-              type="button"
               role="tab"
               aria-controls="nav-edit"
               aria-selected="false"
@@ -539,7 +540,12 @@
 
           <div class="user text-center">
             <div class="profile">
-              <img src="" class="rounded-circle avatar border" width="80" />
+              <img
+                src=""
+                class="rounded-circle avatar border"
+                width="80"
+                alt=""
+              />
             </div>
           </div>
 
